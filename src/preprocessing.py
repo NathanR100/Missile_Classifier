@@ -1,4 +1,9 @@
 #importing data
+import os
+
+DATA_DIR = os.environ.get("DATA_DIR", os.path.join(os.path.dirname(__file__), "..", "data"))
+df_train = pd.read_csv(os.path.join(DATA_DIR, "train.csv"))
+df_test = pd.read_csv(os.path.join(DATA_DIR, "test.csv"))
 
 import pandas as pd
 
