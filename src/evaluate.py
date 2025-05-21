@@ -2,6 +2,8 @@
 altitude_index = 3
 altitudes = X_val[:, -1, altitude_index]
 
+X_test = np.load("models/X_test.npy")
+
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 def evaluate_baseline(threshold):
