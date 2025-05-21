@@ -1,9 +1,9 @@
-import torch
-import os
 
-def load_model(model_path, device='cpu'):
-    model = torch.load(model_path, map_location=device)
-    model.eval()
+import os
+import tensorflow as tf
+
+def load_model(model_path):
+    model = tf.keras.models.load_model(model_path)
     return model
 
 # # To delete the saved model file
