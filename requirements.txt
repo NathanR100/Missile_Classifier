@@ -12,6 +12,5 @@ pyyaml
 typer
 pytest
 coverage
-docker
-kubernetes
-os
+docker 
+kubernetes 
