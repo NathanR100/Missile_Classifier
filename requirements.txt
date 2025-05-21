@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tensorflow==2.15.0
+torch==2.1.0
+fastapi
+uvicorn
+python-dotenv
+pyyaml
+typer
+pytest
+coverage
+docker
+kubernetes
