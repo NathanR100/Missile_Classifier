@@ -14,3 +14,4 @@ pytest
 coverage
 docker
 kubernetes
+os
